@@ -1,0 +1,23 @@
+{
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2024-03-11 23:09:54 +0900"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:dripstone_caves": "2024-03-11 23:18:14 +0900",
+      "minecraft:savanna": "2024-03-11 23:20:31 +0900",
+      "minecraft:plains": "2024-03-11 23:09:55 +0900"
+    },
+    "done": false
+  },
+  "minecraft:story/lava_bucket": {
+    "criteria": {
+      "lava_bucket": "2024-03-11 23:19:23 +0900"
+    },
+    "done": true
+  },
+  "DataVersion": 3700
+}

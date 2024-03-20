@@ -1,0 +1,811 @@
+[20:20:09] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[20:20:14] [ServerMain/INFO]: Loaded 1174 recipes
+[20:20:15] [ServerMain/INFO]: Loaded 1271 advancements
+[20:20:15] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[20:20:15] [Server thread/INFO]: Loading properties
+[20:20:15] [Server thread/INFO]: This server is running Purpur version git-Purpur-2155 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT) (Git: 987f46f on HEAD)
+[20:20:16] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[20:20:16] [Server thread/INFO]: Using 4 threads for Netty based IO
+[20:20:16] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 2 worker threads, and gen parallelism of 2 threads
+[20:20:18] [Server thread/WARN]: [Pufferfish] SIMD operations are available for your server, but are not configured!
+[20:20:18] [Server thread/WARN]: [Pufferfish] To enable additional optimizations, add "--add-modules=jdk.incubator.vector" to your startup flags, BEFORE the "-jar".
+[20:20:18] [Server thread/WARN]: [Pufferfish] If you have already added this flag, then SIMD operations are not supported on your JVM or CPU.
+[20:20:18] [Server thread/WARN]: [Pufferfish] Debug: Java: 17.0.4.1, test run: true
+[20:20:18] [Server thread/INFO]: Default game type: SURVIVAL
+[20:20:18] [Server thread/INFO]: Generating keypair
+[20:20:18] [Server thread/INFO]: Starting Minecraft server on *:12345
+[20:20:18] [Server thread/INFO]: Using default channel type
+[20:20:18] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[20:20:18] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[20:20:19] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.0+6678-55745ad
+[20:20:20] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@5a98a59c]
+[20:20:20] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v4.9.3
+[20:20:20] [Server thread/INFO]: [ViaVersion] ViaVersion 4.9.3 is now loaded. Registering protocol transformers and injecting...
+[20:20:21] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[20:20:22] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[20:20:22] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[20:20:22] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[20:20:22] [Server thread/INFO]: [spark] Loading server plugin spark v1.10.60
+[20:20:22] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.9+5934e49
+[20:20:22] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v4.9.2
+[20:20:22] [Server thread/INFO]: [TNTRun] Loading server plugin TNTRun v1.0
+[20:20:22] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[20:20:22] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.0+6678-55745ad
+[20:20:23] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[20:20:23] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[20:20:23] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R3.PaperweightAdapter as the Bukkit adapter
+[20:20:26] [Server thread/INFO]: Preparing level "world"
+[20:20:28] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[20:20:29] [Server thread/INFO]: Time elapsed: 596 ms
+[20:20:29] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[20:20:29] [Server thread/INFO]: Time elapsed: 47 ms
+[20:20:29] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[20:20:29] [Server thread/INFO]: Time elapsed: 50 ms
+[20:20:29] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.9.3
+[20:20:29] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20.3/1.20.4 (765)
+[20:20:29] [Server thread/INFO]: [spark] Enabling spark v1.10.60
+[20:20:29] [Server thread/INFO]: [spark] Using Paper ServerTickStartEvent for tick monitoring
+[20:20:30] [Server thread/INFO]: [spark] Starting background profiler...
+[20:20:30] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
+[20:20:30] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.9+5934e49
+[20:20:30] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[20:20:30] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[20:20:30] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[20:20:30] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[20:20:30] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[20:20:30] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[20:20:30] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[20:20:30] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[20:20:30] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[20:20:30] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[20:20:30] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[20:20:30] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[20:20:30] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[20:20:30] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[20:20:30] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[20:20:30] [Server thread/INFO]: [WorldGuard] Loading region data...
+[20:20:31] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v4.9.2
+[20:20:31] [Server thread/INFO]: [TNTRun] Enabling TNTRun v1.0
+[20:20:31] [Server thread/INFO]: [TNTRun] TNTRunがこんにちはしました。
+[20:20:31] [Server thread/INFO]: Running delayed init tasks
+[20:20:31] [Server thread/INFO]: Done (16.346s)! For help, type "help"
+[20:20:31] [Craft Scheduler Thread - 1 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[20:24:21] [User Authenticator #0/INFO]: UUID of player Hidekooooo is 7d9280c1-cebc-4632-ac7a-81173c619272
+[20:24:22] [Server thread/INFO]: Hidekooooo joined the game
+[20:24:22] [Server thread/INFO]: Hidekooooo[/127.0.0.1:10201] logged in with entity id 2 at ([world]-194.50047333753093, 81.0, -187.46043982220178)
+[20:24:22] [Server thread/WARN]: [TNTRun] Task #8 for TNTRun v1.0 generated an exception
+java.lang.NoClassDefFoundError: com/nekozouneko/tntrun/utils/TimerTasks
+	at com.nekozouneko.tntrun.TNTRun.onEnable$lambda$2(TNTRun.kt:68) ~[TNTRun-1.0.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftTask.run(CraftTask.java:101) ~[purpur-1.20.4.jar:git-Purpur-2155]
+	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:482) ~[purpur-1.20.4.jar:git-Purpur-2155]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1669) ~[purpur-1.20.4.jar:git-Purpur-2155]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:487) ~[purpur-1.20.4.jar:git-Purpur-2155]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1548) ~[purpur-1.20.4.jar:git-Purpur-2155]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1236) ~[purpur-1.20.4.jar:git-Purpur-2155]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:323) ~[purpur-1.20.4.jar:git-Purpur-2155]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+Caused by: java.lang.ClassNotFoundException: com.nekozouneko.tntrun.utils.TimerTasks
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:199) ~[purpur-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:166) ~[purpur-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:520) ~[?:?]
+	... 9 more
+[20:24:22] [Server thread/WARN]: [TNTRun] Task #8 for TNTRun v1.0 generated an exception
+java.lang.NoClassDefFoundError: com/nekozouneko/tntrun/utils/TimerTasks
+	at com.nekozouneko.tntrun.TNTRun.onEnable$lambda$2(TNTRun.kt:68) ~[TNTRun-1.0.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftTask.run(CraftTask.java:101) ~[purpur-1.20.4.jar:git-Purpur-2155]
+	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:482) ~[purpur-1.20.4.jar:git-Purpur-2155]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1669) ~[purpur-1.20.4.jar:git-Purpur-2155]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:487) ~[purpur-1.20.4.jar:git-Purpur-2155]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1548) ~[purpur-1.20.4.jar:git-Purpur-2155]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1236) ~[purpur-1.20.4.jar:git-Purpur-2155]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:323) ~[purpur-1.20.4.jar:git-Purpur-2155]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+Caused by: java.lang.ClassNotFoundException: com.nekozouneko.tntrun.utils.TimerTasks
+	... 9 more
+[20:24:22] [Server thread/WARN]: [TNTRun] Task #8 for TNTRun v1.0 generated an exception
+java.lang.NoClassDefFoundError: com/nekozouneko/tntrun/utils/TimerTasks
+	at com.nekozouneko.tntrun.TNTRun.onEnable$lambda$2(TNTRun.kt:68) ~[TNTRun-1.0.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftTask.run(CraftTask.java:101) ~[purpur-1.20.4.jar:git-Purpur-2155]
+	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:482) ~[purpur-1.20.4.jar:git-Purpur-2155]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1669) ~[purpur-1.20.4.jar:git-Purpur-2155]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:487) ~[purpur-1.20.4.jar:git-Purpur-2155]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1548) ~[purpur-1.20.4.jar:git-Purpur-2155]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1236) ~[purpur-1.20.4.jar:git-Purpur-2155]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:323) ~[purpur-1.20.4.jar:git-Purpur-2155]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+Caused by: java.lang.ClassNotFoundException: com.nekozouneko.tntrun.utils.TimerTasks
+	... 9 more
+[20:24:23] [Server thread/WARN]: [TNTRun] Task #8 for TNTRun v1.0 generated an exception
+java.lang.NoClassDefFoundError: com/nekozouneko/tntrun/utils/TimerTasks
+	at com.nekozouneko.tntrun.TNTRun.onEnable$lambda$2(TNTRun.kt:68) ~[TNTRun-1.0.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftTask.run(CraftTask.java:101) ~[purpur-1.20.4.jar:git-Purpur-2155]
+	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:482) ~[purpur-1.20.4.jar:git-Purpur-2155]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1669) ~[purpur-1.20.4.jar:git-Purpur-2155]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:487) ~[purpur-1.20.4.jar:git-Purpur-2155]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1548) ~[purpur-1.20.4.jar:git-Purpur-2155]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1236) ~[purpur-1.20.4.jar:git-Purpur-2155]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:323) ~[purpur-1.20.4.jar:git-Purpur-2155]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+Caused by: java.lang.ClassNotFoundException: com.nekozouneko.tntrun.utils.TimerTasks
+	... 9 more
+[20:24:23] [Server thread/WARN]: [TNTRun] Task #8 for TNTRun v1.0 generated an exception
+java.lang.NoClassDefFoundError: com/nekozouneko/tntrun/utils/TimerTasks
+	at com.nekozouneko.tntrun.TNTRun.onEnable$lambda$2(TNTRun.kt:68) ~[TNTRun-1.0.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftTask.run(CraftTask.java:101) ~[purpur-1.20.4.jar:git-Purpur-2155]
+	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:482) ~[purpur-1.20.4.jar:git-Purpur-2155]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1669) ~[purpur-1.20.4.jar:git-Purpur-2155]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:487) ~[purpur-1.20.4.jar:git-Purpur-2155]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1548) ~[purpur-1.20.4.jar:git-Purpur-2155]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1236) ~[purpur-1.20.4.jar:git-Purpur-2155]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:323) ~[purpur-1.20.4.jar:git-Purpur-2155]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+Caused by: java.lang.ClassNotFoundException: com.nekozouneko.tntrun.utils.TimerTasks
+	... 9 more
+[20:24:23] [Server thread/WARN]: [TNTRun] Task #8 for TNTRun v1.0 generated an exception
+java.lang.NoClassDefFoundError: com/nekozouneko/tntrun/utils/TimerTasks
+	at com.nekozouneko.tntrun.TNTRun.onEnable$lambda$2(TNTRun.kt:68) ~[TNTRun-1.0.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftTask.run(CraftTask.java:101) ~[purpur-1.20.4.jar:git-Purpur-2155]
+	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:482) ~[purpur-1.20.4.jar:git-Purpur-2155]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1669) ~[purpur-1.20.4.jar:git-Purpur-2155]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:487) ~[purpur-1.20.4.jar:git-Purpur-2155]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1548) ~[purpur-1.20.4.jar:git-Purpur-2155]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1236) ~[purpur-1.20.4.jar:git-Purpur-2155]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:323) ~[purpur-1.20.4.jar:git-Purpur-2155]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+Caused by: java.lang.ClassNotFoundException: com.nekozouneko.tntrun.utils.TimerTasks
+	... 9 more
+[20:24:23] [Server thread/WARN]: [TNTRun] Task #8 for TNTRun v1.0 generated an exception
+java.lang.NoClassDefFoundError: com/nekozouneko/tntrun/utils/TimerTasks
+	at com.nekozouneko.tntrun.TNTRun.onEnable$lambda$2(TNTRun.kt:68) ~[TNTRun-1.0.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftTask.run(CraftTask.java:101) ~[purpur-1.20.4.jar:git-Purpur-2155]
+	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:482) ~[purpur-1.20.4.jar:git-Purpur-2155]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1669) ~[purpur-1.20.4.jar:git-Purpur-2155]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:487) ~[purpur-1.20.4.jar:git-Purpur-2155]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1548) ~[purpur-1.20.4.jar:git-Purpur-2155]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1236) ~[purpur-1.20.4.jar:git-Purpur-2155]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:323) ~[purpur-1.20.4.jar:git-Purpur-2155]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+Caused by: java.lang.ClassNotFoundException: com.nekozouneko.tntrun.utils.TimerTasks
+	... 9 more
+[20:24:24] [Server thread/WARN]: [TNTRun] Task #8 for TNTRun v1.0 generated an exception
+java.lang.NoClassDefFoundError: com/nekozouneko/tntrun/utils/TimerTasks
+	at com.nekozouneko.tntrun.TNTRun.onEnable$lambda$2(TNTRun.kt:68) ~[TNTRun-1.0.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftTask.run(CraftTask.java:101) ~[purpur-1.20.4.jar:git-Purpur-2155]
+	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:482) ~[purpur-1.20.4.jar:git-Purpur-2155]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1669) ~[purpur-1.20.4.jar:git-Purpur-2155]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:487) ~[purpur-1.20.4.jar:git-Purpur-2155]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1548) ~[purpur-1.20.4.jar:git-Purpur-2155]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1236) ~[purpur-1.20.4.jar:git-Purpur-2155]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:323) ~[purpur-1.20.4.jar:git-Purpur-2155]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+Caused by: java.lang.ClassNotFoundException: com.nekozouneko.tntrun.utils.TimerTasks
+	... 9 more
+[20:24:24] [Server thread/WARN]: [TNTRun] Task #8 for TNTRun v1.0 generated an exception
+java.lang.NoClassDefFoundError: com/nekozouneko/tntrun/utils/TimerTasks
+	at com.nekozouneko.tntrun.TNTRun.onEnable$lambda$2(TNTRun.kt:68) ~[TNTRun-1.0.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftTask.run(CraftTask.java:101) ~[purpur-1.20.4.jar:git-Purpur-2155]
+	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:482) ~[purpur-1.20.4.jar:git-Purpur-2155]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1669) ~[purpur-1.20.4.jar:git-Purpur-2155]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:487) ~[purpur-1.20.4.jar:git-Purpur-2155]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1548) ~[purpur-1.20.4.jar:git-Purpur-2155]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1236) ~[purpur-1.20.4.jar:git-Purpur-2155]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:323) ~[purpur-1.20.4.jar:git-Purpur-2155]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+Caused by: java.lang.ClassNotFoundException: com.nekozouneko.tntrun.utils.TimerTasks
+	... 9 more
+[20:24:25] [Server thread/WARN]: [TNTRun] Task #8 for TNTRun v1.0 generated an exception
+java.lang.NoClassDefFoundError: com/nekozouneko/tntrun/utils/TimerTasks
+	at com.nekozouneko.tntrun.TNTRun.onEnable$lambda$2(TNTRun.kt:68) ~[TNTRun-1.0.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftTask.run(CraftTask.java:101) ~[purpur-1.20.4.jar:git-Purpur-2155]
+	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:482) ~[purpur-1.20.4.jar:git-Purpur-2155]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1669) ~[purpur-1.20.4.jar:git-Purpur-2155]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:487) ~[purpur-1.20.4.jar:git-Purpur-2155]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1548) ~[purpur-1.20.4.jar:git-Purpur-2155]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1236) ~[purpur-1.20.4.jar:git-Purpur-2155]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:323) ~[purpur-1.20.4.jar:git-Purpur-2155]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+Caused by: java.lang.ClassNotFoundException: com.nekozouneko.tntrun.utils.TimerTasks
+	... 9 more
+[20:24:25] [Server thread/WARN]: [TNTRun] Task #8 for TNTRun v1.0 generated an exception
+java.lang.NoClassDefFoundError: com/nekozouneko/tntrun/utils/TimerTasks
+	at com.nekozouneko.tntrun.TNTRun.onEnable$lambda$2(TNTRun.kt:68) ~[TNTRun-1.0.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftTask.run(CraftTask.java:101) ~[purpur-1.20.4.jar:git-Purpur-2155]
+	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:482) ~[purpur-1.20.4.jar:git-Purpur-2155]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1669) ~[purpur-1.20.4.jar:git-Purpur-2155]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:487) ~[purpur-1.20.4.jar:git-Purpur-2155]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1548) ~[purpur-1.20.4.jar:git-Purpur-2155]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1236) ~[purpur-1.20.4.jar:git-Purpur-2155]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:323) ~[purpur-1.20.4.jar:git-Purpur-2155]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+Caused by: java.lang.ClassNotFoundException: com.nekozouneko.tntrun.utils.TimerTasks
+	... 9 more
+[20:24:26] [Server thread/WARN]: [TNTRun] Task #8 for TNTRun v1.0 generated an exception
+java.lang.NoClassDefFoundError: com/nekozouneko/tntrun/utils/TimerTasks
+	at com.nekozouneko.tntrun.TNTRun.onEnable$lambda$2(TNTRun.kt:68) ~[TNTRun-1.0.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftTask.run(CraftTask.java:101) ~[purpur-1.20.4.jar:git-Purpur-2155]
+	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:482) ~[purpur-1.20.4.jar:git-Purpur-2155]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1669) ~[purpur-1.20.4.jar:git-Purpur-2155]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:487) ~[purpur-1.20.4.jar:git-Purpur-2155]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1548) ~[purpur-1.20.4.jar:git-Purpur-2155]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1236) ~[purpur-1.20.4.jar:git-Purpur-2155]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:323) ~[purpur-1.20.4.jar:git-Purpur-2155]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+Caused by: java.lang.ClassNotFoundException: com.nekozouneko.tntrun.utils.TimerTasks
+	... 9 more
+[20:24:26] [Server thread/WARN]: [TNTRun] Task #8 for TNTRun v1.0 generated an exception
+java.lang.NoClassDefFoundError: com/nekozouneko/tntrun/utils/TimerTasks
+	at com.nekozouneko.tntrun.TNTRun.onEnable$lambda$2(TNTRun.kt:68) ~[TNTRun-1.0.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftTask.run(CraftTask.java:101) ~[purpur-1.20.4.jar:git-Purpur-2155]
+	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:482) ~[purpur-1.20.4.jar:git-Purpur-2155]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1669) ~[purpur-1.20.4.jar:git-Purpur-2155]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:487) ~[purpur-1.20.4.jar:git-Purpur-2155]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1548) ~[purpur-1.20.4.jar:git-Purpur-2155]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1236) ~[purpur-1.20.4.jar:git-Purpur-2155]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:323) ~[purpur-1.20.4.jar:git-Purpur-2155]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+Caused by: java.lang.ClassNotFoundException: com.nekozouneko.tntrun.utils.TimerTasks
+	... 9 more
+[20:24:26] [Server thread/INFO]: Hidekooooo issued server command: /reload confirm
+[20:24:26] [Server thread/INFO]: Hidekooooo: Please note that this command is not supported and may cause issues when using some plugins.
+[20:24:26] [Server thread/INFO]: Hidekooooo: If you encounter any issues please use the /stop command to restart your server.
+[20:24:26] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[20:24:26] [Server thread/INFO]: Using 4 threads for Netty based IO
+[20:24:27] [Server thread/INFO]: [TNTRun] Disabling TNTRun v1.0
+[20:24:27] [Server thread/INFO]: [TNTRun] TNTRunがばいばいしました。
+[20:24:27] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v4.9.2
+[20:24:27] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.9+5934e49
+[20:24:27] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
+[20:24:27] [Server thread/INFO]: [spark] Disabling spark v1.10.60
+[20:24:27] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v4.9.3
+[20:24:27] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
+[20:24:27] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.3.0+6678-55745ad
+[20:24:27] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[20:24:28] [Server thread/INFO]: Loaded 1174 recipes
+[20:24:28] [Server thread/INFO]: Loaded 1271 advancements
+[20:24:30] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.0+6678-55745ad
+[20:24:31] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@2a74241c]
+[20:24:31] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v4.9.3
+[20:24:31] [Server thread/INFO]: [ViaVersion] ViaVersion 4.9.3 is now loaded. Registering protocol transformers and injecting...
+[20:24:31] [Server thread/ERROR]: [ViaVersion] ViaVersion is already loaded, this should work fine. If you get any console errors, try rebooting.
+[20:24:31] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[20:24:31] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[20:24:32] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[20:24:32] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[20:24:32] [Server thread/INFO]: [spark] Loading server plugin spark v1.10.60
+[20:24:32] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.9+5934e49
+[20:24:32] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v4.9.2
+[20:24:32] [Server thread/INFO]: [TNTRun] Loading server plugin TNTRun v1.0
+[20:24:32] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[20:24:32] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.0+6678-55745ad
+[20:24:32] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[20:24:32] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[20:24:32] [Server thread/WARN]: [WorldEdit] Server reload detected. This may cause various issues with WorldEdit and dependent plugins.
+[20:24:33] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R3.PaperweightAdapter as the Bukkit adapter
+[20:24:34] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.9.3
+[20:24:34] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20.3/1.20.4 (765)
+[20:24:34] [Server thread/INFO]: [spark] Enabling spark v1.10.60
+[20:24:34] [Server thread/INFO]: [spark] Using Paper ServerTickStartEvent for tick monitoring
+[20:24:34] [Server thread/INFO]: [spark] Starting background profiler...
+[20:24:34] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
+[20:24:34] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.9+5934e49
+[20:24:35] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[20:24:35] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[20:24:35] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[20:24:35] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[20:24:35] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[20:24:35] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[20:24:35] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[20:24:35] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[20:24:35] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[20:24:35] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[20:24:35] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[20:24:35] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[20:24:35] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[20:24:35] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[20:24:35] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[20:24:35] [Server thread/INFO]: [WorldGuard] Loading region data...
+[20:24:35] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v4.9.2
+[20:24:35] [Server thread/INFO]: [TNTRun] Enabling TNTRun v1.0
+[20:24:35] [Server thread/INFO]: [TNTRun] TNTRunがこんにちはしました。
+[20:24:35] [Server thread/INFO]: Hidekooooo: Reload complete.
+[20:24:35] [Craft Scheduler Thread - 15 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[20:24:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10124ms or 202 ticks behind
+[20:24:35] [Server thread/INFO]: Hidekooooo issued server command: /gamemode creative
+[20:24:35] [Server thread/INFO]: [Hidekooooo: Set own game mode to Creative Mode]
+[20:24:47] [Server thread/INFO]: Hidekooooo lost connection: Disconnected
+[20:24:48] [Server thread/INFO]: Hidekooooo left the game
+[20:24:50] [User Authenticator #0/INFO]: UUID of player Hidekooooo is 7d9280c1-cebc-4632-ac7a-81173c619272
+[20:24:50] [Server thread/INFO]: Hidekooooo joined the game
+[20:24:50] [Server thread/INFO]: Hidekooooo[/127.0.0.1:10326] logged in with entity id 271 at ([world]-194.50047333753093, 81.0, -187.46043982220178)
+[20:26:51] [Server thread/INFO]: Hidekooooo issued server command: /clear
+[20:26:51] [Server thread/INFO]: [Hidekooooo: Removed 6 item(s) from player Hidekooooo]
+[20:26:54] [Server thread/INFO]: Hidekooooo issued server command: /give @s snowball 100
+[20:26:54] [Server thread/INFO]: [Hidekooooo: Gave 100 [Snowball] to Hidekooooo]
+[20:27:13] [Server thread/INFO]: Hidekooooo issued server command: /reload confirm
+[20:27:13] [Server thread/INFO]: Hidekooooo: Please note that this command is not supported and may cause issues when using some plugins.
+[20:27:13] [Server thread/INFO]: Hidekooooo: If you encounter any issues please use the /stop command to restart your server.
+[20:27:14] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[20:27:14] [Server thread/INFO]: Using 4 threads for Netty based IO
+[20:27:14] [Server thread/INFO]: [TNTRun] Disabling TNTRun v1.0
+[20:27:14] [Server thread/INFO]: [TNTRun] TNTRunがばいばいしました。
+[20:27:14] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v4.9.2
+[20:27:14] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.9+5934e49
+[20:27:14] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
+[20:27:14] [Server thread/INFO]: [spark] Disabling spark v1.10.60
+[20:27:14] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v4.9.3
+[20:27:14] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
+[20:27:14] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.3.0+6678-55745ad
+[20:27:14] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[20:27:15] [Server thread/INFO]: Loaded 1174 recipes
+[20:27:16] [Server thread/INFO]: Loaded 1271 advancements
+[20:27:18] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.0+6678-55745ad
+[20:27:19] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@78e10b94]
+[20:27:19] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v4.9.3
+[20:27:19] [Server thread/INFO]: [ViaVersion] ViaVersion 4.9.3 is now loaded. Registering protocol transformers and injecting...
+[20:27:19] [Server thread/ERROR]: [ViaVersion] ViaVersion is already loaded, this should work fine. If you get any console errors, try rebooting.
+[20:27:19] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[20:27:19] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[20:27:20] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[20:27:20] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[20:27:20] [Server thread/INFO]: [spark] Loading server plugin spark v1.10.60
+[20:27:20] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.9+5934e49
+[20:27:20] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v4.9.2
+[20:27:20] [Server thread/INFO]: [TNTRun] Loading server plugin TNTRun v1.0
+[20:27:20] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[20:27:20] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.0+6678-55745ad
+[20:27:20] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[20:27:20] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[20:27:20] [Server thread/WARN]: [WorldEdit] Server reload detected. This may cause various issues with WorldEdit and dependent plugins.
+[20:27:21] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R3.PaperweightAdapter as the Bukkit adapter
+[20:27:22] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.9.3
+[20:27:22] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20.3/1.20.4 (765)
+[20:27:22] [Server thread/INFO]: [spark] Enabling spark v1.10.60
+[20:27:22] [Server thread/INFO]: [spark] Using Paper ServerTickStartEvent for tick monitoring
+[20:27:22] [Server thread/INFO]: [spark] Starting background profiler...
+[20:27:22] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
+[20:27:22] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.9+5934e49
+[20:27:23] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[20:27:23] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[20:27:23] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[20:27:23] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[20:27:23] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[20:27:23] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[20:27:23] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[20:27:23] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[20:27:23] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[20:27:23] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[20:27:23] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[20:27:23] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[20:27:23] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[20:27:23] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[20:27:23] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[20:27:23] [Server thread/INFO]: [WorldGuard] Loading region data...
+[20:27:23] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v4.9.2
+[20:27:23] [Server thread/INFO]: [TNTRun] Enabling TNTRun v1.0
+[20:27:23] [Server thread/INFO]: [TNTRun] TNTRunがこんにちはしました。
+[20:27:23] [Server thread/INFO]: Hidekooooo: Reload complete.
+[20:27:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9629ms or 192 ticks behind
+[20:27:23] [Craft Scheduler Thread - 20 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[20:27:32] [Server thread/INFO]: Hidekooooo lost connection: Disconnected
+[20:27:32] [Server thread/INFO]: Hidekooooo left the game
+[20:27:34] [User Authenticator #1/INFO]: UUID of player Hidekooooo is 7d9280c1-cebc-4632-ac7a-81173c619272
+[20:27:34] [Server thread/INFO]: Hidekooooo joined the game
+[20:27:34] [Server thread/INFO]: Hidekooooo[/127.0.0.1:10924] logged in with entity id 334 at ([world]-194.50047333753093, 81.0, -187.46043982220178)
+[20:29:11] [Server thread/INFO]: Hidekooooo issued server command: /reload confirm
+[20:29:11] [Server thread/INFO]: Hidekooooo: Please note that this command is not supported and may cause issues when using some plugins.
+[20:29:11] [Server thread/INFO]: Hidekooooo: If you encounter any issues please use the /stop command to restart your server.
+[20:29:11] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[20:29:11] [Server thread/INFO]: Using 4 threads for Netty based IO
+[20:29:11] [Server thread/INFO]: [TNTRun] Disabling TNTRun v1.0
+[20:29:11] [Server thread/INFO]: [TNTRun] TNTRunがばいばいしました。
+[20:29:11] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v4.9.2
+[20:29:11] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.9+5934e49
+[20:29:11] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
+[20:29:11] [Server thread/INFO]: [spark] Disabling spark v1.10.60
+[20:29:11] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v4.9.3
+[20:29:11] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
+[20:29:11] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.3.0+6678-55745ad
+[20:29:11] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[20:29:12] [Server thread/INFO]: Loaded 1174 recipes
+[20:29:12] [Server thread/INFO]: Loaded 1271 advancements
+[20:29:14] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.0+6678-55745ad
+[20:29:15] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@47535fc8]
+[20:29:15] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v4.9.3
+[20:29:15] [Server thread/INFO]: [ViaVersion] ViaVersion 4.9.3 is now loaded. Registering protocol transformers and injecting...
+[20:29:15] [Server thread/ERROR]: [ViaVersion] ViaVersion is already loaded, this should work fine. If you get any console errors, try rebooting.
+[20:29:15] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[20:29:16] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[20:29:16] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[20:29:16] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[20:29:16] [Server thread/INFO]: [spark] Loading server plugin spark v1.10.60
+[20:29:16] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.9+5934e49
+[20:29:16] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v4.9.2
+[20:29:16] [Server thread/INFO]: [TNTRun] Loading server plugin TNTRun v1.0
+[20:29:16] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[20:29:16] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.0+6678-55745ad
+[20:29:16] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[20:29:16] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[20:29:16] [Server thread/WARN]: [WorldEdit] Server reload detected. This may cause various issues with WorldEdit and dependent plugins.
+[20:29:17] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R3.PaperweightAdapter as the Bukkit adapter
+[20:29:18] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.9.3
+[20:29:18] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20.3/1.20.4 (765)
+[20:29:18] [Server thread/INFO]: [spark] Enabling spark v1.10.60
+[20:29:19] [Server thread/INFO]: [spark] Using Paper ServerTickStartEvent for tick monitoring
+[20:29:19] [Server thread/INFO]: [spark] Starting background profiler...
+[20:29:19] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
+[20:29:19] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.9+5934e49
+[20:29:19] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[20:29:19] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[20:29:19] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[20:29:19] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[20:29:19] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[20:29:19] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[20:29:19] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[20:29:19] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[20:29:19] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[20:29:19] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[20:29:19] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[20:29:19] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[20:29:19] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[20:29:19] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[20:29:19] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[20:29:19] [Server thread/INFO]: [WorldGuard] Loading region data...
+[20:29:20] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v4.9.2
+[20:29:20] [Server thread/INFO]: [TNTRun] Enabling TNTRun v1.0
+[20:29:20] [Server thread/INFO]: [TNTRun] TNTRunがこんにちはしました。
+[20:29:20] [Server thread/INFO]: Hidekooooo: Reload complete.
+[20:29:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9123ms or 182 ticks behind
+[20:29:20] [Craft Scheduler Thread - 19 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[20:29:35] [Server thread/INFO]: Hidekooooo issued server command: /reload confirm
+[20:29:35] [Server thread/INFO]: Hidekooooo: Please note that this command is not supported and may cause issues when using some plugins.
+[20:29:35] [Server thread/INFO]: Hidekooooo: If you encounter any issues please use the /stop command to restart your server.
+[20:29:35] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[20:29:35] [Server thread/INFO]: Using 4 threads for Netty based IO
+[20:29:36] [Server thread/INFO]: [TNTRun] Disabling TNTRun v1.0
+[20:29:36] [Server thread/INFO]: [TNTRun] TNTRunがばいばいしました。
+[20:29:36] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v4.9.2
+[20:29:36] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.9+5934e49
+[20:29:36] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
+[20:29:36] [Server thread/INFO]: [spark] Disabling spark v1.10.60
+[20:29:36] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v4.9.3
+[20:29:36] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
+[20:29:36] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.3.0+6678-55745ad
+[20:29:36] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[20:29:37] [Server thread/INFO]: Loaded 1174 recipes
+[20:29:37] [Server thread/INFO]: Loaded 1271 advancements
+[20:29:39] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.0+6678-55745ad
+[20:29:40] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@7ee40107]
+[20:29:40] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v4.9.3
+[20:29:40] [Server thread/INFO]: [ViaVersion] ViaVersion 4.9.3 is now loaded. Registering protocol transformers and injecting...
+[20:29:40] [Server thread/ERROR]: [ViaVersion] ViaVersion is already loaded, this should work fine. If you get any console errors, try rebooting.
+[20:29:41] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[20:29:41] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[20:29:42] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[20:29:42] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[20:29:42] [Server thread/INFO]: [spark] Loading server plugin spark v1.10.60
+[20:29:42] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.9+5934e49
+[20:29:42] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v4.9.2
+[20:29:42] [Server thread/INFO]: [TNTRun] Loading server plugin TNTRun v1.0
+[20:29:42] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[20:29:42] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.0+6678-55745ad
+[20:29:42] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[20:29:42] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[20:29:42] [Server thread/WARN]: [WorldEdit] Server reload detected. This may cause various issues with WorldEdit and dependent plugins.
+[20:29:43] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R3.PaperweightAdapter as the Bukkit adapter
+[20:29:44] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.9.3
+[20:29:44] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20.3/1.20.4 (765)
+[20:29:44] [Server thread/INFO]: [spark] Enabling spark v1.10.60
+[20:29:44] [Server thread/INFO]: [spark] Using Paper ServerTickStartEvent for tick monitoring
+[20:29:44] [Server thread/INFO]: [spark] Starting background profiler...
+[20:29:44] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
+[20:29:45] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.9+5934e49
+[20:29:45] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[20:29:45] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[20:29:45] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[20:29:45] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[20:29:45] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[20:29:45] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[20:29:45] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[20:29:45] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[20:29:45] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[20:29:45] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[20:29:45] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[20:29:45] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[20:29:45] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[20:29:45] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[20:29:45] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[20:29:45] [Server thread/INFO]: [WorldGuard] Loading region data...
+[20:29:45] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v4.9.2
+[20:29:45] [Server thread/INFO]: [TNTRun] Enabling TNTRun v1.0
+[20:29:45] [Server thread/INFO]: [TNTRun] TNTRunがこんにちはしました。
+[20:29:45] [Server thread/INFO]: Hidekooooo: Reload complete.
+[20:29:45] [Craft Scheduler Thread - 26 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[20:29:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10889ms or 217 ticks behind
+[20:38:54] [Server thread/INFO]: Hidekooooo issued server command: /reload confirm
+[20:38:54] [Server thread/INFO]: Hidekooooo: Please note that this command is not supported and may cause issues when using some plugins.
+[20:38:54] [Server thread/INFO]: Hidekooooo: If you encounter any issues please use the /stop command to restart your server.
+[20:38:54] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[20:38:54] [Server thread/INFO]: Using 4 threads for Netty based IO
+[20:38:55] [Server thread/INFO]: [TNTRun] Disabling TNTRun v1.0
+[20:38:55] [Server thread/INFO]: [TNTRun] TNTRunがばいばいしました。
+[20:38:55] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v4.9.2
+[20:38:55] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.9+5934e49
+[20:38:55] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
+[20:38:55] [Server thread/INFO]: [spark] Disabling spark v1.10.60
+[20:38:55] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v4.9.3
+[20:38:55] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
+[20:38:55] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.3.0+6678-55745ad
+[20:38:55] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[20:38:55] [Server thread/INFO]: Loaded 1174 recipes
+[20:38:55] [Server thread/INFO]: Loaded 1271 advancements
+[20:38:57] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.0+6678-55745ad
+[20:38:59] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@4b20421b]
+[20:38:59] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v4.9.3
+[20:38:59] [Server thread/INFO]: [ViaVersion] ViaVersion 4.9.3 is now loaded. Registering protocol transformers and injecting...
+[20:38:59] [Server thread/ERROR]: [ViaVersion] ViaVersion is already loaded, this should work fine. If you get any console errors, try rebooting.
+[20:39:00] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[20:39:00] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[20:39:00] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[20:39:00] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[20:39:00] [Server thread/INFO]: [spark] Loading server plugin spark v1.10.60
+[20:39:00] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.9+5934e49
+[20:39:00] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v4.9.2
+[20:39:00] [Server thread/INFO]: [TNTRun] Loading server plugin TNTRun v1.0
+[20:39:00] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[20:39:00] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.0+6678-55745ad
+[20:39:00] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[20:39:01] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[20:39:01] [Server thread/WARN]: [WorldEdit] Server reload detected. This may cause various issues with WorldEdit and dependent plugins.
+[20:39:01] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R3.PaperweightAdapter as the Bukkit adapter
+[20:39:02] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.9.3
+[20:39:02] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20.3/1.20.4 (765)
+[20:39:02] [Server thread/INFO]: [spark] Enabling spark v1.10.60
+[20:39:03] [Server thread/INFO]: [spark] Using Paper ServerTickStartEvent for tick monitoring
+[20:39:03] [Server thread/INFO]: [spark] Starting background profiler...
+[20:39:03] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
+[20:39:03] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.9+5934e49
+[20:39:03] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[20:39:03] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[20:39:03] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[20:39:03] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[20:39:03] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[20:39:03] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[20:39:03] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[20:39:03] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[20:39:03] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[20:39:03] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[20:39:03] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[20:39:03] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[20:39:03] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[20:39:03] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[20:39:03] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[20:39:03] [Server thread/INFO]: [WorldGuard] Loading region data...
+[20:39:03] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v4.9.2
+[20:39:03] [Server thread/INFO]: [TNTRun] Enabling TNTRun v1.0
+[20:39:03] [Server thread/INFO]: [TNTRun] TNTRunがこんにちはしました。
+[20:39:03] [Server thread/INFO]: Hidekooooo: Reload complete.
+[20:39:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9302ms or 186 ticks behind
+[20:39:03] [Craft Scheduler Thread - 45 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[21:28:46] [Server thread/INFO]: Hidekooooo issued server command: /reload confirm
+[21:28:46] [Server thread/INFO]: Hidekooooo: Please note that this command is not supported and may cause issues when using some plugins.
+[21:28:46] [Server thread/INFO]: Hidekooooo: If you encounter any issues please use the /stop command to restart your server.
+[21:28:46] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[21:28:46] [Server thread/INFO]: Using 4 threads for Netty based IO
+[21:28:47] [Server thread/INFO]: [TNTRun] Disabling TNTRun v1.0
+[21:28:47] [Server thread/INFO]: [TNTRun] TNTRunがばいばいしました。
+[21:28:47] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v4.9.2
+[21:28:47] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.9+5934e49
+[21:28:47] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
+[21:28:47] [Server thread/INFO]: [spark] Disabling spark v1.10.60
+[21:28:47] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v4.9.3
+[21:28:47] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
+[21:28:47] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.3.0+6678-55745ad
+[21:28:47] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[21:28:48] [Server thread/INFO]: Loaded 1174 recipes
+[21:28:48] [Server thread/INFO]: Loaded 1271 advancements
+[21:28:50] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.0+6678-55745ad
+[21:28:50] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@55a494c]
+[21:28:50] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v4.9.3
+[21:28:50] [Server thread/INFO]: [ViaVersion] ViaVersion 4.9.3 is now loaded. Registering protocol transformers and injecting...
+[21:28:50] [Server thread/ERROR]: [ViaVersion] ViaVersion is already loaded, this should work fine. If you get any console errors, try rebooting.
+[21:28:52] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[21:28:52] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[21:28:52] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[21:28:52] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[21:28:53] [Server thread/INFO]: [spark] Loading server plugin spark v1.10.60
+[21:28:53] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.9+5934e49
+[21:28:53] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v4.9.2
+[21:28:53] [Server thread/INFO]: [TNTRun] Loading server plugin TNTRun v1.0
+[21:28:53] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[21:28:53] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.0+6678-55745ad
+[21:28:53] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[21:28:53] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[21:28:53] [Server thread/WARN]: [WorldEdit] Server reload detected. This may cause various issues with WorldEdit and dependent plugins.
+[21:28:53] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R3.PaperweightAdapter as the Bukkit adapter
+[21:28:54] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.9.3
+[21:28:54] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20.3/1.20.4 (765)
+[21:28:54] [Server thread/INFO]: [spark] Enabling spark v1.10.60
+[21:28:54] [Server thread/INFO]: [spark] Using Paper ServerTickStartEvent for tick monitoring
+[21:28:54] [Server thread/INFO]: [spark] Starting background profiler...
+[21:28:54] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
+[21:28:54] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.9+5934e49
+[21:28:55] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[21:28:55] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[21:28:55] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[21:28:55] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[21:28:55] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[21:28:55] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[21:28:55] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[21:28:55] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[21:28:55] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[21:28:55] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[21:28:55] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[21:28:55] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[21:28:55] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[21:28:55] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[21:28:55] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[21:28:55] [Server thread/INFO]: [WorldGuard] Loading region data...
+[21:28:55] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v4.9.2
+[21:28:55] [Server thread/INFO]: [TNTRun] Enabling TNTRun v1.0
+[21:28:55] [Server thread/INFO]: [TNTRun] TNTRunがこんにちはしました。
+[21:28:55] [Server thread/INFO]: Hidekooooo: Reload complete.
+[21:28:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9069ms or 181 ticks behind
+[21:28:55] [Craft Scheduler Thread - 135 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[21:29:28] [Server thread/INFO]: Hidekooooo lost connection: Disconnected
+[21:29:28] [Server thread/INFO]: Hidekooooo left the game
+[21:29:30] [User Authenticator #2/INFO]: UUID of player Hidekooooo is 7d9280c1-cebc-4632-ac7a-81173c619272
+[21:29:30] [Server thread/INFO]: Hidekooooo joined the game
+[21:29:30] [Server thread/INFO]: Hidekooooo[/127.0.0.1:24556] logged in with entity id 726 at ([world]-194.50047333753093, 81.0, -187.46043982220178)
+[21:34:00] [Server thread/INFO]: Hidekooooo issued server command: /reload confirm
+[21:34:00] [Server thread/INFO]: Hidekooooo: Please note that this command is not supported and may cause issues when using some plugins.
+[21:34:00] [Server thread/INFO]: Hidekooooo: If you encounter any issues please use the /stop command to restart your server.
+[21:34:00] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[21:34:00] [Server thread/INFO]: Using 4 threads for Netty based IO
+[21:34:00] [Server thread/INFO]: [TNTRun] Disabling TNTRun v1.0
+[21:34:00] [Server thread/INFO]: [TNTRun] TNTRunがばいばいしました。
+[21:34:00] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v4.9.2
+[21:34:00] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.9+5934e49
+[21:34:00] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
+[21:34:00] [Server thread/INFO]: [spark] Disabling spark v1.10.60
+[21:34:00] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v4.9.3
+[21:34:00] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
+[21:34:00] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.3.0+6678-55745ad
+[21:34:00] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[21:34:01] [Server thread/INFO]: Loaded 1174 recipes
+[21:34:01] [Server thread/INFO]: Loaded 1271 advancements
+[21:34:03] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.0+6678-55745ad
+[21:34:04] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@35932372]
+[21:34:04] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v4.9.3
+[21:34:04] [Server thread/INFO]: [ViaVersion] ViaVersion 4.9.3 is now loaded. Registering protocol transformers and injecting...
+[21:34:04] [Server thread/ERROR]: [ViaVersion] ViaVersion is already loaded, this should work fine. If you get any console errors, try rebooting.
+[21:34:06] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[21:34:06] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[21:34:06] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[21:34:06] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[21:34:07] [Server thread/INFO]: [spark] Loading server plugin spark v1.10.60
+[21:34:07] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.9+5934e49
+[21:34:07] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v4.9.2
+[21:34:07] [Server thread/INFO]: [TNTRun] Loading server plugin TNTRun v1.0
+[21:34:07] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[21:34:07] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.0+6678-55745ad
+[21:34:07] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[21:34:07] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[21:34:07] [Server thread/WARN]: [WorldEdit] Server reload detected. This may cause various issues with WorldEdit and dependent plugins.
+[21:34:07] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R3.PaperweightAdapter as the Bukkit adapter
+[21:34:08] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.9.3
+[21:34:08] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20.3/1.20.4 (765)
+[21:34:08] [Server thread/INFO]: [spark] Enabling spark v1.10.60
+[21:34:10] [Server thread/INFO]: [spark] Using Paper ServerTickStartEvent for tick monitoring
+[21:34:10] [Server thread/INFO]: [spark] Starting background profiler...
+[21:34:10] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
+[21:34:10] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.9+5934e49
+[21:34:10] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[21:34:10] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[21:34:10] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[21:34:10] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[21:34:10] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[21:34:10] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[21:34:10] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[21:34:10] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[21:34:10] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[21:34:10] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[21:34:10] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[21:34:10] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[21:34:10] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[21:34:10] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[21:34:10] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[21:34:10] [Server thread/INFO]: [WorldGuard] Loading region data...
+[21:34:10] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v4.9.2
+[21:34:10] [Server thread/INFO]: [TNTRun] Enabling TNTRun v1.0
+[21:34:10] [Server thread/INFO]: [TNTRun] TNTRunがこんにちはしました。
+[21:34:10] [Server thread/INFO]: Hidekooooo: Reload complete.
+[21:34:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10886ms or 217 ticks behind
+[21:34:10] [Craft Scheduler Thread - 150 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[21:38:20] [Server thread/INFO]: Hidekooooo issued server command: /tr
+[21:38:21] [Server thread/INFO]: ↓ 今回の参加者リスト
+[21:38:21] [Server thread/INFO]: ◆ Hidekooooo
+[21:38:21] [Server thread/INFO]: ゲーム開始まで、10秒です。
+[21:38:22] [Server thread/INFO]: ゲーム開始まで、9秒です。
+[21:38:23] [Server thread/INFO]: ゲーム開始まで、8秒です。
+[21:38:24] [Server thread/INFO]: ゲーム開始まで、7秒です。
+[21:38:25] [Server thread/INFO]: ゲーム開始まで、6秒です。
+[21:38:26] [Server thread/INFO]: ゲーム開始まで、5秒です。
+[21:38:27] [Server thread/INFO]: ゲーム開始まで、4秒です。
+[21:38:28] [Server thread/INFO]: ゲーム開始まで、3秒です。
+[21:38:29] [Server thread/INFO]: ゲーム開始まで、2秒です。
+[21:38:30] [Server thread/INFO]: ゲーム開始まで、1秒です。
+[21:38:31] [Server thread/INFO]: ゲーム開始まで、0秒です。
+[21:39:12] [Server thread/INFO]: 死亡 > Hidekooooo [1/1]
+[21:39:12] [Server thread/WARN]: Hidekooooo moved too quickly! 4.650491574554849,12.844478247056884,-4.710591198402227
+[21:39:17] [Server thread/INFO]: Hidekooooo issued server command: /debug stop
+[21:39:17] [Server thread/WARN]: Hidekooooo moved too quickly! -24.429269488740488,0.0,13.281310193147277
+[21:39:20] [Server thread/INFO]: Hidekooooo lost connection: Disconnected
+[21:39:20] [Server thread/INFO]: Hidekooooo left the game
+[21:39:22] [User Authenticator #3/INFO]: UUID of player Hidekooooo is 7d9280c1-cebc-4632-ac7a-81173c619272
+[21:39:22] [Server thread/INFO]: Hidekooooo joined the game
+[21:39:22] [Server thread/INFO]: Hidekooooo[/127.0.0.1:26752] logged in with entity id 865 at ([world]-194.50047333753093, 81.0, -187.46043982220178)
+[21:54:42] [Server thread/INFO]: Hidekooooo lost connection: Disconnected
+[21:54:42] [Server thread/INFO]: Hidekooooo left the game
+[21:59:04] [User Authenticator #4/INFO]: UUID of player Hidekooooo is 7d9280c1-cebc-4632-ac7a-81173c619272
+[21:59:05] [Server thread/INFO]: Hidekooooo joined the game
+[21:59:05] [Server thread/INFO]: Hidekooooo[/127.0.0.1:31078] logged in with entity id 953 at ([world]-194.50047333753093, 81.0, -187.46043982220178)
+[21:59:08] [Server thread/INFO]: Hidekooooo lost connection: Disconnected
+[21:59:08] [Server thread/INFO]: Hidekooooo left the game
+[21:59:10] [Server thread/INFO]: Stopping server
+[21:59:10] [Server thread/INFO]: [TNTRun] Disabling TNTRun v1.0
+[21:59:10] [Server thread/INFO]: [TNTRun] TNTRunがばいばいしました。
+[21:59:10] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v4.9.2
+[21:59:10] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.9+5934e49
+[21:59:10] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
+[21:59:10] [Server thread/INFO]: [spark] Disabling spark v1.10.60
+[21:59:10] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v4.9.3
+[21:59:10] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
+[21:59:10] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.3.0+6678-55745ad
+[21:59:10] [spark-java-sampler-0-0/WARN]: org.bukkit.plugin.IllegalPluginAccessException: Plugin attempted to register task while disabled
+[21:59:10] [spark-java-sampler-0-0/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftScheduler.validate(CraftScheduler.java:550)
+[21:59:10] [spark-java-sampler-0-0/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftScheduler.runTaskTimer(CraftScheduler.java:226)
+[21:59:10] [spark-java-sampler-0-0/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftScheduler.runTaskTimer(CraftScheduler.java:211)
+[21:59:10] [spark-java-sampler-0-0/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftScheduler.runTaskLater(CraftScheduler.java:175)
+[21:59:10] [spark-java-sampler-0-0/WARN]: 	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftScheduler.runTask(CraftScheduler.java:144)
+[21:59:10] [spark-java-sampler-0-0/WARN]: 	at spark.jar//me.lucko.spark.bukkit.BukkitSparkPlugin.executeSync(BukkitSparkPlugin.java:150)
+[21:59:10] [spark-java-sampler-0-0/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.asyncSupplyStage(CompletableFuture.java:1782)
+[21:59:10] [spark-java-sampler-0-0/WARN]: 	at java.base/java.util.concurrent.CompletableFuture.supplyAsync(CompletableFuture.java:2005)
+[21:59:10] [spark-java-sampler-0-0/WARN]: 	at spark.jar//me.lucko.spark.common.platform.world.AsyncWorldInfoProvider.async(AsyncWorldInfoProvider.java:54)
+[21:59:10] [spark-java-sampler-0-0/WARN]: 	at spark.jar//me.lucko.spark.common.platform.world.AsyncWorldInfoProvider.pollCounts(AsyncWorldInfoProvider.java:76)
+[21:59:10] [spark-java-sampler-0-0/WARN]: 	at spark.jar//me.lucko.spark.common.platform.world.AsyncWorldInfoProvider.getCounts(AsyncWorldInfoProvider.java:84)
+[21:59:10] [spark-java-sampler-0-0/WARN]: 	at spark.jar//me.lucko.spark.common.sampler.window.WindowStatisticsCollector.measure(WindowStatisticsCollector.java:185)
+[21:59:10] [spark-java-sampler-0-0/WARN]: 	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1708)
+[21:59:10] [spark-java-sampler-0-0/WARN]: 	at spark.jar//me.lucko.spark.common.sampler.window.WindowStatisticsCollector.measureNow(WindowStatisticsCollector.java:123)
+[21:59:10] [spark-java-sampler-0-0/WARN]: 	at spark.jar//me.lucko.spark.common.sampler.java.JavaSampler.stop(JavaSampler.java:115)
+[21:59:10] [spark-java-sampler-0-0/WARN]: 	at spark.jar//me.lucko.spark.common.sampler.java.JavaSampler.run(JavaSampler.java:138)
+[21:59:10] [spark-java-sampler-0-0/WARN]: 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+[21:59:10] [spark-java-sampler-0-0/WARN]: 	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+[21:59:10] [spark-java-sampler-0-0/WARN]: 	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+[21:59:10] [spark-java-sampler-0-0/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+[21:59:10] [spark-java-sampler-0-0/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+[21:59:10] [spark-java-sampler-0-0/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[21:59:10] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[21:59:10] [Server thread/INFO]: Saving players
+[21:59:10] [Server thread/INFO]: Saving worlds
+[21:59:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[21:59:10] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[21:59:10] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[21:59:10] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[21:59:10] [Server thread/INFO]: [ChunkHolderManager] Saved 3 block chunks, 15 entity chunks, 0 poi chunks in world 'world' in 0.06s
+[21:59:11] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[21:59:11] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[21:59:11] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[21:59:11] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[21:59:11] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[21:59:11] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[21:59:11] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[21:59:11] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[21:59:11] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[21:59:11] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[21:59:11] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[21:59:11] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[21:59:11] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[21:59:11] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[21:59:11] [Server thread/INFO]: Flushing Chunk IO
+[21:59:11] [Server thread/INFO]: Closing Thread Pool
+[21:59:11] [Server thread/INFO]: Closing Server

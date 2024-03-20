@@ -1,0 +1,1 @@
+E:\JDKs\jdk17\bin\java.exe -Xmx5G -Xms5G -jar server.jar

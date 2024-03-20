@@ -1,0 +1,13 @@
+name: TNTRun
+version: '${project.version}'
+main: com.nekozouneko.tntrun.TNTRun
+api-version: '1.20'
+
+commands:
+  debug:
+    description: デバッグ用。
+    permission: admin
+  tntrun:
+    aliases: [tr, tnt]
+    permission: admin
+    description: ねこかぞくでもわかる簡単に操作できる管理画面を表示します。
