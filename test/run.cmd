@@ -1,1 +1,1 @@
-E:\JDKs\jdk17\bin\java.exe -Xmx5G -Xms5G -jar server.jar
+E:\JDKs\jdk17\bin\java.exe -Xmx3072m -Xms3072m -jar server.jar -nogui

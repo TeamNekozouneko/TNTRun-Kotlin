@@ -25,9 +25,8 @@ class PlayerDead(
     fun onPlayerDamage(e: EntityDamageEvent) {
         if(e.entity is Player) {
             if(e.cause == DamageCause.LAVA) {
+                val player = e.entity as Player
                 if(plugin.gameState) {
-
-                    val player = e.entity as Player
 
                     val all = plugin.playPlayers.size
                     val alive = plugin.alivePlayers.size
@@ -47,6 +46,8 @@ class PlayerDead(
                             wonPlayer(lastPlayer)
                         }
                     }
+                } else {
+                    player.teleport(getLocation("gameSpawn"))
                 }
             }
         }
